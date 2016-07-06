@@ -3,9 +3,7 @@ Rails.application.routes.draw do
 
   get 'experiments/page2'
 
-  get 'experiments/page'
-
-  get 'experiments/3'
+  get 'experiments/page3'
 
   get 'pages/batman'
   get 'pages/superman'
