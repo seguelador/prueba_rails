@@ -1,5 +1,6 @@
 class ExperimentsController < ApplicationController
   def page1
+  	@tiempo = 300
   	render layout: "bootstrap"
   end
 

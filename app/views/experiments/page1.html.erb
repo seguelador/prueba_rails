@@ -1,1 +1,10 @@
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et consequatur aliquam est, accusamus, perspiciatis enim quam in optio illum officia dolorum nihil aut quos minima similique explicabo sint obcaecati. Ratione?</p>
+<h2 id="cuenta"><%= @tiempo %></h2>
+
+<script>
+	var tiempo = <%= @tiempo %>
+	setInterval(function(){ 		
+		$("#cuenta").text(tiempo);
+		tiempo = tiempo-1
+	}, 1000);
+</script>
